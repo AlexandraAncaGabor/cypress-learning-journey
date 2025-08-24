@@ -16,3 +16,5 @@ Learning Cypress through practical examples, from basics to intermediate.
 - Cypress
 - JavaScript
 - GitHub
+
+_✨ Guided by curiosity, committed to quality._
