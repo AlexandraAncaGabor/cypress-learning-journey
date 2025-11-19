@@ -6,5 +6,6 @@ describe('Contains text Password on Login page', () => {
 
     // // Verify text "Password" exists
   cy.contains('Password').should('be.visible')
+   cy.screenshot('password_text') // Take screenshot
   })
 })

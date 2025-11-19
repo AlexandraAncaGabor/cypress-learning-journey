@@ -12,5 +12,6 @@ describe('Login Test', () => {
     // Verify that the dashboard has loaded
     cy.url().should('include', '/dashboard')
     cy.contains('Dashboard').should('be.visible')
+     cy.screenshot('login_flow') // Take screenshot
   })
 })
