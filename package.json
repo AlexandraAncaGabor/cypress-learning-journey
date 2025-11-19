@@ -1,0 +1,17 @@
+{
+  "name": "cypress-learning-journey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alexandra Gabor @alexandraanca.gabor@gmail.com",
+  "license": "ISC",
+  "description": "Cypress automation project for demo websites and practice exercises",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^14.5.4"
+    
+  }
+}
