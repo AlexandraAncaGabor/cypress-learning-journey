@@ -25,6 +25,11 @@ Learning Cypress through practical examples, from basics to intermediate.
    - Tests that a user can log in with valid credentials.  
    - Screenshot included. [here](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/screenshots/password_text.png)
 
+4. **Add To Cart**
+[Test file](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/e2e/AddToCartCarturesti.cy.js)
+- Add to cart a specific book ("Poveste de Craciun")
+- Verifies the cart 
+- Screenshot included [here](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/screenshots/carturesti-add-to-cart%20(2).png)
 
 
 **🔧 Tech Stack**
