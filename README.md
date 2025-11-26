@@ -9,35 +9,45 @@ Learning Cypress through practical examples, from basics to intermediate.
 - Understand integration with CI/CD pipelines (future goal)
 - Progress from manual testing skills to automation expertise
 
-**📂 Projects / Examples
+**📂 Examples
+
+**I. UI- tests:**
+
 1. **Verify Login Button Exists**
-   [Test file](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/e2e/CheckLoginButton.cy.js)  
+   [Test file](cypress/e2e/UI-elements/LoginButton-UI.cy.js)  
    - Checks that the login button is present on the page.  
-   - Screenshot included. [here](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/screenshots/login-button.png)
+   - Screenshot included. [here](cypress/screenshots/UI-elements/login-button.png)
 
 2. **Check Text "Password" Exists**
-  [Test file](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/e2e/ContainsTextPassword.cy.js)
+  [Test file](cypress/e2e/UI-elements/ContainsTextPassword.cy.js)
    - Confirms that the text `Password` is visible on the login page.  
-   - Screenshot included. [here](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/screenshots/login_flow.png)
+   - Screenshot included. [here](cypress/screenshots/UI-elements/password_text.png)
 
-3. **Login Functionality**
-    [Test file](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/e2e/TestLogin.cy.js)
+**II. Authentication Tests**
+1. **Login Functionality**
+    [Test file](cypress/e2e/Authentication/TestLogin.cy.js)
    - Tests that a user can log in with valid credentials.  
-   - Screenshot included. [here](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/screenshots/password_text.png)
+   - Screenshot included. [here](cypress/screenshots/Authentication/login_flow.png)
 
-4. **Add To Cart**
-[Test file](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/e2e/AddToCartCarturesti.cy.js)
-- Add to cart a specific book ("Poveste de Craciun")
-- Verifies the cart 
-- Screenshot included [here](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/screenshots/carturesti-add-to-cart%20(2).png)
-
-5. **Error message for invalid credentials**
-[Test file](cypress/e2e/Login-negative-scenarios.cy.js)
+2. **Negative scenarios for login**
+[Test file](cypress/e2e/Authentication/Logout.cy.js)
 - Tests that the login functionality properly handles invalid inputs and prevents unauthorized access. This includes: invalid username, invalid password, and empty credentials. Error messages are displayed appropriately for each scenario.
 -  Screenshots are included. 
-- [saucedemo-login-error-empty](cypress/screenshots/saucedemo-login-error-empty.png)   
-- [saucedemo-login-error-password](cypress/screenshots/saucedemo-login-error-password.png)  
-- [saucedemo-login-error](cypress/screenshots/saucedemo-login-error.png) 
+- [saucedemo-login-error-empty](cypress/screenshots/Authentication/saucedemo-login-error-empty.png)   
+- [saucedemo-login-error-wrong-password](cypress/screenshots/Authentication/saucedemo-login-error-password.png)  
+- [saucedemo-login-error-wrong-user](cypress/screenshots/Authentication/saucedemo-login-error.png) 
+
+3. **Logout flow**
+[Test file](cypress/e2e/Authentication/Logout.cy.js)
+- Tests the logout flow
+- Screenshot included. [here](cypress/screenshots/Authentication/logout_flow.png)
+
+**III. Cart flow tests**
+1. **Add To Cart**
+[Test file](cypress/e2e/Cart/AddToCartCarturesti.cy.js)
+- Add to cart a specific book ("Poveste de Craciun")
+- Verifies the cart 
+- Screenshot included [here](cypress/screenshots/Cart/carturesti-add-to-cart (2).png)
 
 **🔧 Tech Stack**
 - Cypress
