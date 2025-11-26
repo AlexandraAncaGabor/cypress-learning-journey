@@ -56,4 +56,6 @@ Learning Cypress through practical examples, from basics to intermediate.
 - JavaScript
 - GitHub
 
+***Notes: More tests will be added as I continue progressing with learning the testing framework.**
+
 _✨ Guided by curiosity, committed to quality._
