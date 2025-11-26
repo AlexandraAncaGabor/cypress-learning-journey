@@ -31,6 +31,15 @@ Learning Cypress through practical examples, from basics to intermediate.
 - Verifies the cart 
 - Screenshot included [here](https://github.com/AlexandraAncaGabor/cypress-learning-journey/blob/main/cypress/screenshots/carturesti-add-to-cart%20(2).png)
 
+5. **Error message for invalid credentials**
+[Test file]/Users/alexandrag/Desktop/cypress-learning-journey/cypress/e2e/Login-negative-scenarios.cy.js
+- Tests that the login functionality properly handles invalid inputs and prevents unauthorized access. This includes: invalid username, invalid password, and empty credentials. Error messages are displayed appropriately for each scenario.
+-  Screenshots are included. 
+[here]/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error (1).png
+[here]/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-empty.png
+[here]/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-password (1).png
+[here]/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-password.png
+[here]/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error.png
 
 **🔧 Tech Stack**
 - Cypress
