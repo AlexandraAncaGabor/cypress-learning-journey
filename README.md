@@ -35,11 +35,7 @@ Learning Cypress through practical examples, from basics to intermediate.
 [Test file]/Users/alexandrag/Desktop/cypress-learning-journey/cypress/e2e/Login-negative-scenarios.cy.js
 - Tests that the login functionality properly handles invalid inputs and prevents unauthorized access. This includes: invalid username, invalid password, and empty credentials. Error messages are displayed appropriately for each scenario.
 -  Screenshots are included. 
-[here](/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error (1).png)
-[here](/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-empty.png)
-[here](/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-password (1).png)
-[here](/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-password.png)
-[here](/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error.png)
+[here](/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error (1).png)(/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-empty.png)(/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-password (1).png)(/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error-password.png)(/Users/alexandrag/Desktop/cypress-learning-journey/cypress/screenshots/saucedemo-login-error.png)
 
 **🔧 Tech Stack**
 - Cypress
