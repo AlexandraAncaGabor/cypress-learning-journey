@@ -31,11 +31,13 @@ Learning Cypress through practical examples, from basics to intermediate.
 
 2. **Negative scenarios for login**
 [Test file](cypress/e2e/Authentication/Logout.cy.js)
-- Tests that the login functionality properly handles invalid inputs and prevents unauthorized access. This includes: invalid username, invalid password, and empty credentials. Error messages are displayed appropriately for each scenario.
--  Screenshots are included. 
-- [saucedemo-login-error-empty](cypress/screenshots/Authentication/saucedemo-login-error-empty.png)   
-- [saucedemo-login-error-wrong-password](cypress/screenshots/Authentication/saucedemo-login-error-password.png)  
-- [saucedemo-login-error-wrong-user](cypress/screenshots/Authentication/saucedemo-login-error.png) 
+- Tests that the login functionality properly handles invalid inputs and prevents unauthorized access.
+- This includes: invalid username, invalid password, and empty credentials.
+- Error messages are displayed appropriately for each scenario.
+- Screenshots are included: 
+    - [saucedemo-login-error-empty](cypress/screenshots/Authentication/saucedemo-login-error-empty.png)   
+    - [saucedemo-login-error-wrong-password](cypress/screenshots/Authentication/saucedemo-login-error-password.png)  
+    - [saucedemo-login-error-wrong-user](cypress/screenshots/Authentication/saucedemo-login-error.png) 
 
 3. **Logout flow**
 [Test file](cypress/e2e/Authentication/Logout.cy.js)
@@ -47,7 +49,7 @@ Learning Cypress through practical examples, from basics to intermediate.
 [Test file](cypress/e2e/Cart/AddToCartCarturesti.cy.js)
 - Add to cart a specific book ("Poveste de Craciun")
 - Verifies the cart 
-- Screenshot included [here](cypress/screenshots/Cart/carturesti-add-to-cart (2).png)
+- Screenshot included [here](cypress/screenshots/Cart/carturesti-add-to-cart.png)
 
 **🔧 Tech Stack**
 - Cypress
