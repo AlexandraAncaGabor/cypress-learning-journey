@@ -24,6 +24,7 @@ Learning Cypress through practical examples, from basics to intermediate.
    - Screenshot included. [here](cypress/screenshots/UI-elements/password_text.png)
 
 **II. Authentication Tests**
+
 **1. Login Functionality**
     [Test file](cypress/e2e/Authentication/TestLogin.cy.js)
    - Tests that a user can log in with valid credentials.  
@@ -45,6 +46,7 @@ Learning Cypress through practical examples, from basics to intermediate.
 - Screenshot included. [here](cypress/screenshots/Authentication/logout_flow.png)
 
 **III. Cart flow tests**
+
 **1. Add To Cart**
 [Test file](cypress/e2e/Cart/AddToCartCarturesti.cy.js)
 - Add to cart a specific book ("Poveste de Craciun")
@@ -52,6 +54,7 @@ Learning Cypress through practical examples, from basics to intermediate.
 - Screenshot included [here](cypress/screenshots/Cart/carturesti-add-to-cart.png)
 
 **IV. Dropdowns options
+
 **1. Single check on dropdown menu**
 [Test file](cypress/e2e/Dropdowns&Checkboxes/single_check_dropdown_menu.cy.js)
 - Open Carturesti website dropdown menu
