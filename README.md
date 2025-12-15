@@ -59,12 +59,12 @@ Learning Cypress through practical examples, from basics to intermediate.
 [Test file](cypress/e2e/Dropdowns&Checkboxes/single_check_dropdown_menu.cy.js)
 - Open Carturesti website dropdown menu
 - Verify that selecting "Carte" redirects the user correctly. 
-- Screenshot included [here](cypress/screenshots/Dropdowns and checkboxes/produse_dropdown_selection.png)
+- Screenshot included [here](cypress/screenshots/Dropdowns and checkboxes/single-option-dropdown.png)
 
 **2. Check all options from dropdown menu**
 [Test file](cypress/e2e/Dropdowns&Checkboxes/All_options_check_dropdown_menu.cy.js)
 - Verify that all options in the Carturesti dropdown menu are accessible.  
-- Screenshot included [here](cypress/screenshots/Dropdowns and checkboxes/produse_dropdown_selection (1).png)
+- Screenshot included [here](cypress/screenshots/Dropdowns and checkboxes/all-options-dropdown.png)
 
 **🔧 Tech Stack**
 - Cypress
